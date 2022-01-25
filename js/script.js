@@ -55,4 +55,36 @@ heading2.style.backgroundColor = "yellow";
 list.style.color = "orange";
 list.style.backgroundColor = "green";
 
+const myDiv = document.querySelector("div");
+console.dir(myDiv)
 
+
+myDiv.classList.add("container");
+console.dir(myDiv);
+
+myDiv.classList.add("second-class")
+console.dir(myDiv)
+
+const pageHeading = document.querySelector("h1");
+pageHeading.innerText = "isac";
+
+const allTheListItems = document.querySelectorAll("li");
+for(let i = 0; i < allTheListItems.length; i++) {
+    allTheListItems[i].innerText = allTheListItems[i].innerText + " change";
+
+
+}
+
+const pageHeading2 = document.querySelector("h1");
+pageHeading2.innerHTML = " updatede isac";
+
+const someContainer = document.querySelector("div");
+someContainer.innerHTML = `<p>
+                            <b>Bold text </b> not bold
+                          </p>`;
+
+
+const list3 = document.querySelector("ul");
+const existingHTML = list3.innerHTML;
+const newHTMLLi = `<li>hello i am an new item</li>`
+list3.innerHTML = existingHTML + newHTMLLi
