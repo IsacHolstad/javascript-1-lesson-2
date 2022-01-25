@@ -46,12 +46,13 @@ for (let i = 0; i < listItems.length; i++) {
     // d. Change background colour to be light gray
     heading1.style.backgroundColor = "grey";
     // e. Change the padding to be 1em ( remember that 1em is the base in px you put on the body )
-    heading1.style.border = "5px solid green"
+    heading1.style.border = "5px solid green";
+    heading1.style.padding = "1em";
 
 heading2.style.color = "blue";
-heading2.style.backgroundColor = "yellow"
+heading2.style.backgroundColor = "yellow";
 
-list.style.color = "orange"
-list.style.backgroundColor = "green"
+list.style.color = "orange";
+list.style.backgroundColor = "green";
 
 
